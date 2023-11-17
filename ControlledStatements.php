@@ -105,4 +105,15 @@ for ($i = 1; $i <= 23; $i++) {
     echo $i . '<br>';
   }
 }
+
+?>
+<h2>String reverse</h2>
+<?php
+$string = "Suresh gundapu";
+$temp = "";
+for ($i = strlen($string) - 1; $i >= 0; $i--) {
+  $temp = $temp . $string[$i];
+}
+echo $temp;
+
 ?>
